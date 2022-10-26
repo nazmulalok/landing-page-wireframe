@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Framework */
+/* container */
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 516px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 708px;
+    }
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .flex-md-4 {
+        flex-basis: 33.33%;
+        width: 33.33%;
+
+    }
+}
+
+/* Header Start */
+
+header {
+    background-color: #fff;
+}

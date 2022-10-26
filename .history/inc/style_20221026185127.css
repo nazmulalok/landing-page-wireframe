@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+/* Framework */
+
+.container {
+    width: 80%;
+    /* padding: 15px; */
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .flex-md-4 {
+        flex-basis: 33.33%;
+        width: 33.33%;
+
+    }
+}
+
+/* Header Start */
+
+header {
+    background-color: #fff;
+}

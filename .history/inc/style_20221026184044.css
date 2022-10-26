@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .flex-md-4 {
+        flex-basis: 33.33%;
+        width: 33.33%;
+
+    }
+}
